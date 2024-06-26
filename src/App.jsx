@@ -1,5 +1,6 @@
-import Footer from './components/footer/footer'
+import FeatureCard from './components/card/feature-card'
 import ProductCard from './components/card/prodect-card'
+import Footer from './components/footer/footer'
 
 
 import StarIcon from "./assets/svg/star-icon";
@@ -21,6 +22,13 @@ const App =function () {
   return (
     <>
     <main>
+      <section id='feature' className='mb-[40px]'>
+        <div className="container">
+          <div className="feature flex flex-wrap lg:flex-nowrap justify-around">
+            <FeatureCard/>
+          </div>
+        </div>
+      </section>
       <section id="product">
         <div className="container">
           <h1 id="book-type" className='text-primaryText2 font-cairo font-[600] text-[32px]  text-center md:text-left leading-[40px] mb-[32px]'>Янги қўшилганлар</h1>

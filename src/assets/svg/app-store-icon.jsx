@@ -1,9 +1,9 @@
 const AppStoreIcon = function () {
   return (
     <svg
-      width="{160px}"
-      height="{46px}"
-      viewBox="0 0 161px 47px"
+      width="160px"
+      height="46px"
+      viewBox="0 0 161 47"
       fill="currentcolor"
       xmlns="http://www.w3.org/2000/svg"
     >
