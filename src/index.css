@@ -5,8 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.hidden{display: none;}
-
 *, *::after, *::before{margin: 0;  box-sizing: border-box; font-family: Cairo;}
 
 a{text-decoration: none;}
