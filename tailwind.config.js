@@ -22,6 +22,9 @@ export default {
         primarySoft:"#EEF4FF",
         primarText:"#11142D",
         secondary:"#10182C",
+        primarText2:"#242424",
+        gold:"#FF7F4D",
+
       }
     },
   },

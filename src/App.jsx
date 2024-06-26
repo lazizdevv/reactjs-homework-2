@@ -23,8 +23,8 @@ const App =function () {
     <main>
       <section id="product">
         <div className="container">
-          <h1 id="book-type">Янги қўшилганлар</h1>
-          <div id="new-adds" className='flex justify-between gap-[24px] mb-[64px]'>
+          <h1 id="book-type" className='text-primaryText2 font-cairo font-[600] text-[32px]  text-center md:text-left leading-[40px] mb-[32px]'>Янги қўшилганлар</h1>
+          <div id="new-adds" className='flex  md:justify-between justify-center gap-[24px] mb-[64px] flex-wrap md:flex-nowrap'>
             <ProductCard img={img1} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>}/>
             <ProductCard img={img2} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>}/>
             <ProductCard img={img3} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>}/>
@@ -32,8 +32,8 @@ const App =function () {
             <ProductCard img={img5} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>}/>
           </div>
 
-          <h1 id="book-type">Аудио китоблар</h1>
-          <div id="audio-books" className='flex justify-between gap-[24px] mb-[64px]'>
+          <h1 id="book-type" className='text-primaryText2 font-cairo font-[600] text-[32px] text-center md:text-left leading-[40px] mb-[32px]'>Аудио китоблар</h1>
+          <div id="audio-books" className='flex md:justify-between justify-center gap-[24px] mb-[64px] flex-wrap md:flex-nowrap'>
             <ProductCard img={img6} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>} hidden={true}/>
             <ProductCard img={img7} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>} hidden={true}/>
             <ProductCard img={img5} name={"code-8"} info={"SIYOSAT, FANTASTIKA"} star={<StarIcon/>} rating={"4.7"} phone={<HeadPhone/>} book={<BookIcon/>} hidden={true}/>
