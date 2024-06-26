@@ -2,7 +2,7 @@ import BookIcon from "../../assets/svg/book-icon";
 import HeadPhone from "../../assets/svg/head-phone";
 import StarIcon from "../../assets/svg/star-icon";
 
-const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
+const ProductCard = ({img,name,info,rating,hidden}) => {
     return( 
         <>
             <div className="card w-[90%] sm:w-[239px] sm:h-[450px] mb-[10px] sm:mb-[20px]">
@@ -11,12 +11,12 @@ const ProductCard = ({img,name,info,star,rating,phone,book,hidden}) => {
                 <p id="info" className="font-sans text-primary font-[400] text-[14px] text-left leading-[19px]">{info}</p>
                 <div id="icon-panel" className="mt-[16px] flex justify-between align-middle">
                     <div id="icon-star" className="flex gap-[10px]">
-                        <StarIcon src={star} alt="icon-star" />
+                        <StarIcon alt="icon-star" />
                         <span id="rating" className="text-gold font-sans font-bold text-[18px] text-left leading-[25px]">{rating}</span>
                     </div>
                     <div id="icon-button" className="flex gap-[21px]">
-                        <HeadPhone src={phone} alt="icon-headphone" />
-                        <BookIcon src={book} alt="icon-book" className={hidden ? 'hidden' : ''} />
+                        <HeadPhone  alt="icon-headphone" />
+                        <BookIcon  alt="icon-book" className={hidden ? 'hidden' : ''} />
                     </div>
                 </div>
             </div>
